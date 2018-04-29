@@ -1,0 +1,58 @@
+<%- stylesheet('./styles/css/home.css') %>
+<%- script('./js/react.bundle.js') %>
+<%- script('./src/components/home/search.bundle.js') %>
+<div id="main-search">
+
+    <div class="row">
+    <div class="col-12">
+        <div class="row justify-content-center">
+            <div>
+                <h2>Resep Masakan Indonesia</h2>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div class="row">
+    <div class="col-12">
+        <div class="row justify-content-center">
+            <div class="col-10">
+                <div id="search_home"></div>
+            </div>
+        </div>
+    </div>
+    </div>
+<br>
+    <div class="row">
+    <div class="col-12">
+        <div class="row justify-content-center">
+        <button type="button" class="btn btn-lg btn-default"><i class="fas fa-pencil-alt"></i> Buat Resep</button>
+        </div>
+    </div>
+    </div>
+
+    <hr>
+</div>
+
+<div>
+    <div class="container">
+    <div class="row">
+        <div class="col-md-12">
+        <div class="row justify-content-center">
+
+<% for(var i=0; i<10; i++){ %>
+<div class="col-md-3 col-sm-12">
+<div class="card">
+<img class="card-img-top img-fluid" src="/images/photo.jpg" alt="Card image cap">
+<div class="card-body">
+<a href="#" class="link-title">Rendang Padang</a>
+</div>
+</div>
+</div>
+<% } %>
+        
+        </div>
+        </div>
+    </div>
+    </div>  
+</div>

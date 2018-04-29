@@ -1,0 +1,13 @@
+{
+  "name": "i-dfood",
+  "description": "a Sails application",
+  "main": "app.js",
+  "authors": [
+    "agik"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "dependencies": {
+    "components-font-awesome": "^5.0.6"
+  }
+}

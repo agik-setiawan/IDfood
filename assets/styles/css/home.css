@@ -1,0 +1,16 @@
+#main-search{
+    margin-top: 50px;
+}
+.card{
+    margin-bottom: 30px;
+}
+.link-title{
+    font-weight: bold;
+    font-size: 18px;
+    color: #4CAF50;
+}
+@media only screen and (max-width:800px){
+    #main-search{
+        margin-top: 40px;
+    }  
+}
